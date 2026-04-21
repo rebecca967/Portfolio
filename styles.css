@@ -1,11 +1,11 @@
 
+
 body {
   margin: 0;
-  background-color: #d6d1c4; 
-  font-family: 'Playfair Display', serif;
-  color: #111;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f5f1e8;
+  color: #1a1a1a;
 }
-
 
 .container {
   text-align: center;

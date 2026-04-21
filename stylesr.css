@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f5f1e8;
+  color: #1a1a1a;
+}
+
+.container {
+  padding: 40px 60px;
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+h2 {
+  font-size: 42px;
+  font-style: italic;
+  color: #8b4513;
+  margin-bottom: 20px;
+}
+
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 120px;
+  top: 120px;
+}
+
+
+.cv-image {
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.name-link {
+  text-decoration: none;
+  font-weight: normal;
+ color: #1a1a1a;
+  transition: opacity 0.2s ease;
+}
+
+.name-link:hover {
+  opacity: 0.6;
+  color: #8b4513;
+}
+
+
+.download-link {
+  color: #8b4513;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.download-link:hover {
+  opacity: 0.7;
+}
+
+
+.footer-links {
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+}
+
+.footer-links a {
+  font-size: 14px;
+  color: #8b4513;
+  text-decoration: none;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
