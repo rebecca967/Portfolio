@@ -48,21 +48,45 @@ h1 em {
 }
 
 
-.project img {
-  width: 120px;
-  height: auto;
-  margin-bottom: 15px;
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 40px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-card img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
-.project a {
-  text-decoration: underline;
-  color: #8b4513;
-  font-size: 18px;
+.project-card a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #8B4513; 
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-.project a:hover {
-  opacity: 0.7;
+
+.project-card:hover img {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.project-card:hover a {
+  color: #a0522d;
 }
 
 .name-link {
